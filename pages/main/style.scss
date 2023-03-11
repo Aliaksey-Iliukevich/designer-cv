@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700&display=swap');
+
+* { margin: 0; padding: 0; };
+
+.wrapper{
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+body{
+    background-image: url('../../images/bg.jfif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #018ABE;
+    width: 100%;
+    .header-menu{
+        list-style: none;
+        display: flex;
+        padding-left: 150px;
+        a{
+            text-decoration: none;
+            font-size: 22px;
+            color: aliceblue;
+            &:hover{
+                color: #2c007f;
+            }
+        }
+      .header-menu-item:not(:last-child){
+        padding-right: 30px;
+      }
+    }
+    
+    .header-logo{
+        max-width: 5rem;
+        max-height: 5rem;
+        padding-left: 100px;
+    }
+    button{
+        margin-left: 55px;
+        width: 8.125rem;
+        height: 2.188rem;
+        background-color: #094761;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+
+.popup{
+    font-family: Montserrat;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    position: fixed;
+    background-color: rgb(0 0 0 / 45%);
+    // display: none;
+    img{
+        position: absolute;
+        left: 465px;
+        top: 5px;
+    }
+    .popup_title{
+        padding: 10px 0 30px 0;
+        color: #ececec;
+    }
+    .popup_body{
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding: 30px 10px;
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+            border-radius: 1%;
+            input{
+                width: 25rem;
+                border-radius: 5px;
+                border: 1px solid #000;
+                font-size: 20px;
+                padding-left: 5px;
+            }
+            input:not(:last-child){
+                margin-bottom: 20px ;
+            }
+            textarea{
+                width: 25rem;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            &::placeholder{
+                padding-left: 5px;
+                font-size: 20px;
+            }
+            }
+            button{
+                width: 15rem;
+                border-radius: 5px;
+                background-color:  rgb(213, 213, 213);
+                cursor: pointer;
+            }
+        }
+    }
+    .popup_content{
+        background-color:  #094761;
+        border-radius: 5px;
+        position: relative;
+        width: 32rem;
+        height: 25rem;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        // padding: 10px;
+    }
+}
