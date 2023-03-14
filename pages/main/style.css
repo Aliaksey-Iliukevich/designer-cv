@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +13,7 @@
 }
 
 body {
-  background-image: url("../../images/bg.jfif");
+  background-color: #0e2547;
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -20,7 +21,7 @@ body {
 .header {
   display: flex;
   align-items: center;
-  background-color: #018ABE;
+  background-color: #3160ac;
   width: 100%;
 }
 .header .header-menu {
@@ -30,11 +31,11 @@ body {
 }
 .header .header-menu a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   color: aliceblue;
 }
 .header .header-menu a:hover {
-  color: #2c007f;
+  color: #a3afff;
 }
 .header .header-menu .header-menu-item:not(:last-child) {
   padding-right: 30px;
@@ -44,14 +45,135 @@ body {
   max-height: 5rem;
   padding-left: 100px;
 }
-.header button {
-  margin-left: 55px;
-  width: 8.125rem;
-  height: 2.188rem;
-  background-color: #094761;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
+.header .btn {
+  display: inline-block;
+  background: #65a4fd;
+  color: #f6f6f6;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-left: 100px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 85px;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  font-family: El Messiri;
+}
+.about h1 {
+  font-size: 48px;
+  color: #ececec;
+  position: absolute;
+  margin-top: 20px;
+}
+.about .text {
+  font-size: 26px;
+  padding-top: 253px;
+}
+.about p {
+  color: #ececec;
+  position: absolute;
+}
+
+.services {
+  color: #ececec;
+  margin-top: 104px;
+}
+.services .title {
+  display: flex;
+  justify-content: center;
+}
+.services .icon {
+  height: 28px;
+}
+.services h2 {
+  margin: 0 147px 0 147px;
+  height: 50px;
+  justify-self: center;
+}
+.services .content {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.services .content .card_1 {
+  position: relative;
+}
+.services .content .card_1 p {
+  color: #ececec;
+  position: absolute;
+  font-size: 24px;
+  top: 478px;
+  left: 21px;
+}
+.services .content .card_1 img {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+.services .content .box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 55rem;
+}
+.services .content .card_2 {
+  height: 260px;
+  position: relative;
+}
+.services .content .card_2 p {
+  color: #ececec;
+  position: absolute;
+  font-size: 24px;
+  top: 193px;
+  left: 40px;
+}
+.services .content .card_2 img {
+  margin-right: 24px;
+}
+.services .content .card_3 {
+  height: 260px;
+  position: relative;
+}
+.services .content .card_3 p {
+  color: #ececec;
+  position: absolute;
+  font-size: 24px;
+  top: 193px;
+  left: 40px;
+}
+.services .content .card_3 img {
+  margin-right: 24px;
+}
+.services .content .card_4 {
+  height: 260px;
+  position: relative;
+}
+.services .content .card_4 p {
+  color: #ececec;
+  position: absolute;
+  font-size: 24px;
+  top: 193px;
+  left: 40px;
+}
+.services .content .card_4 img {
+  margin-right: 24px;
+}
+.services .content .card_5 {
+  height: 260px;
+  position: relative;
+}
+.services .content .card_5 p {
+  color: #ececec;
+  position: absolute;
+  font-size: 24px;
+  top: 193px;
+  left: 40px;
+}
+.services .content .card_5 img {
+  margin-right: 24px;
 }
 
 .popup {
@@ -60,7 +182,20 @@ body {
   height: 100%;
   font-size: 24px;
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.32);
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+}
+.popup .open {
+  opacity: 1;
+  visibility: visible;
+}
+.popup .open .popup_content {
+  transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+  opacity: 1;
 }
 .popup img {
   position: absolute;
@@ -111,12 +246,15 @@ body {
 }
 .popup .popup_body form button {
   width: 15rem;
-  border-radius: 5px;
-  background-color: rgb(213, 213, 213);
+  border-radius: 15px;
+  background-color: #122348;
   cursor: pointer;
+  height: 32px;
+  color: #ececec;
+  font-size: 20px;
 }
 .popup .popup_content {
-  background-color: #094761;
+  background-color: #364c93;
   border-radius: 5px;
   position: relative;
   width: 32rem;

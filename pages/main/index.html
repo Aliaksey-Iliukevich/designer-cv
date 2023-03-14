@@ -22,13 +22,52 @@
                     <li class="header-menu-item"><a href="#">Блог</a></li>
                 </ul>
             </nav>
-            <button type="button">Консультация</button>
+            <a class="btn popup-link" href="#popup">Консультация</a>
         </header>
+        <main class="main">
+            <section class="about">
+                <img src="../../images/main-about-bg.png" alt="фон блока about">
+                <h1>Сайт графического дизайнера <br> Латушко-Угольник Марии</h1>
+                <p class="text">Привет! Меня зовут Мария и я графический дизайнер из Минска. <br> В своей работе использую программы компании Adobe — Photoshop, Illustrator, Indesign, <br> Lightroom. 
+                    На этом сайте я публикую свои услуги и портфолио, плюс вы также можете найти <br> интересные статьи о дизайне и графике.</p>
+            </section>
+            <section class="services">
+                <div class="title">
+                    <img class="icon" src="../../icons/left-icon.png" alt="декоративный элемент заголовка">
+                    <h2>Услуги</h2>
+                    <img class="icon" src="../../icons/right-icon.png" alt="декоративный элемент заголовка">
+                </div>
+                <div class="content">
+                    <div class="card_1">
+                        <img src="../../images/card-1.png" alt="изображение карточки "Фирменный стиль">
+                        <p><b>Фирменный стиль</b></p>
+                    </div>
+                    <div class="box">
+                        <div class="card_2">
+                            <img src="../../images/card-2.png" alt="изображение карточки "Ретушь">
+                            <p><b>Ретушь</b></p>
+                        </div>
+                        <div class="card_3">
+                            <img src="../../images/card-3.png" alt="изображение карточки "Отрисовка с 0">
+                            <p><b>Отрисовка с 0</b></p>
+                        </div>
+                        <div class="card_4">
+                            <img src="../../images/card-4.png" alt="изображение карточки "Вёрстка">
+                            <p><b>Вёрстка</b></p>
+                        </div>
+                        <div class="card_5">
+                            <img src="../../images/card-5.png" alt="изображение карточки "Стикеры">
+                            <p><b>Стикеры</b></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
     </div>
     <div id="popup" class="popup">
         <div class="popup_body">
             <div class="popup_content">
-                <a href="#" class="popup_close"><img src="../../icons/popup-close-white.png" alt="кнопка закрытия модальгого окна"></a>
+                <a href="#" class="popup_close close-popup"><img src="../../icons/popup-close-white.png" alt="кнопка закрытия модальгого окна"></a>
                 <div class="popup_title">Я всегда рада помочь Вам!</div>
                 <div class="popup_form">
                     <form action="">
@@ -41,5 +80,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
