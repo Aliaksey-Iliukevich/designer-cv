@@ -200,6 +200,103 @@ body {
   margin-right: 24px;
 }
 
+.work .title {
+  display: flex;
+  justify-content: center;
+  color: #ececec;
+  margin-top: 63px;
+}
+.work .title h2 {
+  margin: 0 51px;
+}
+.work .container {
+  max-width: 76rem;
+  max-height: 50rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+.work .container .main-img {
+  position: relative;
+}
+.work .container .card_1 {
+  position: relative;
+}
+.work .container .card_1 p {
+  font-size: 20px;
+  color: #ececec;
+  margin-top: 30px;
+  margin-left: -90px;
+}
+.work .container .card_1 .number_bg {
+  position: absolute;
+  top: 64px;
+  right: 410px;
+}
+.work .container .card_1 .numb {
+  position: absolute;
+  top: 82px;
+  right: 440px;
+}
+.work .container .card_2 {
+  position: relative;
+}
+.work .container .card_2 p {
+  font-size: 20px;
+  color: #ececec;
+  margin-top: 30px;
+}
+.work .container .card_2 .number_bg {
+  position: absolute;
+  top: 64px;
+  right: 375px;
+}
+.work .container .card_2 .numb {
+  position: absolute;
+  top: 82px;
+  right: 407px;
+}
+.work .container .card_3 {
+  position: relative;
+  margin-top: 50px;
+}
+.work .container .card_3 p {
+  font-size: 20px;
+  color: #ececec;
+  margin-top: 30px;
+}
+.work .container .card_3 .number_bg {
+  position: absolute;
+  top: 64px;
+  right: 375px;
+}
+.work .container .card_3 .numb {
+  position: absolute;
+  top: 82px;
+  right: 407px;
+}
+.work .container .card_4 {
+  position: relative;
+  margin-top: 50px;
+}
+.work .container .card_4 p {
+  font-size: 20px;
+  color: #ececec;
+  margin-top: 30px;
+}
+.work .container .card_4 .number_bg {
+  position: absolute;
+  top: 64px;
+  right: 360px;
+}
+.work .container .card_4 .numb {
+  position: absolute;
+  top: 82px;
+  right: 395px;
+}
+
 .popup {
   font-family: Montserrat;
   width: 100%;

@@ -200,6 +200,104 @@ body{
     }
 }
 
+.work{
+    .title{
+        display: flex;
+        justify-content: center;
+        color: #ececec;
+        margin-top: 63px;
+        h2{
+            margin: 0 51px;
+        }
+    }
+    .container{
+        max-width: 76rem;
+        max-height: 50rem;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-top: 80px;
+        flex-wrap: wrap;
+        .main-img{
+            position: relative;
+        }
+        .card_1{
+            position: relative;
+            p{
+                font-size: 20px;
+                color: #ececec;
+                margin-top: 30px;
+                margin-left: -90px;
+            }
+            .number_bg{
+                position: absolute;
+                top: 64px;
+                right: 410px;
+            }
+            .numb{
+                position: absolute;
+                top: 82px;
+                right: 440px;
+            }
+        }
+        .card_2{
+            position: relative;
+            p{
+                font-size: 20px;
+                color: #ececec;
+                margin-top: 30px;
+            }
+            .number_bg{
+                position: absolute;
+                top: 64px;
+                right: 375px;
+            }
+            .numb{
+                position: absolute;
+                top: 82px;
+                right: 407px;
+            }
+        }
+        .card_3{
+            position: relative;
+            margin-top: 50px;
+            p{
+                font-size: 20px;
+                color: #ececec;
+                margin-top: 30px;
+            }
+            .number_bg{
+                position: absolute;
+                top: 64px;
+                right: 375px;
+            }
+            .numb{
+                position: absolute;
+                top: 82px;
+                right: 407px;
+            }
+        }
+        .card_4{
+            position: relative;
+            margin-top: 50px;
+            p{
+                font-size: 20px;
+                color: #ececec;
+                margin-top: 30px;
+            }
+            .number_bg{
+                position: absolute;
+                top: 64px;
+                right: 360px;
+            }
+            .numb{
+                position: absolute;
+                top: 82px;
+                right: 395px;
+            }
+        }
+    }
+}
 
 
 
