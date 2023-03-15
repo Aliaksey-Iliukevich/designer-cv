@@ -17,6 +17,7 @@ body{
 .header{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #3160ac;
     width: 100%;
     .header-menu{
@@ -39,7 +40,6 @@ body{
     .header-logo{
         max-width: 5rem;
         max-height: 5rem;
-        padding-left: 100px;
     }
     .btn{
         display: inline-block;
@@ -60,25 +60,48 @@ body{
     position: relative;
     text-align: center;
     font-family: El Messiri;
+    .title{
+        display: flex;
+        color: #ececec;
+        height: 200px;
+        margin-top: 145px;
+        position: absolute;
+        img{
+            height: 28px;
+        }
+        
+    }
     h1{
-        font-size: 48px;
         color: #ececec;
         position: absolute;
-        margin-top: 20px;
+        margin-top: 255px;
+        font-size: 64px;
+    }
+    h2{
+        padding: 0 80px;
     }
     .text{
         font-size: 26px;
         padding-top: 253px;
     }
     p{
-        // z-index: 5;
         color: #ececec;
         position: absolute;
     }
 }
 
-.services{
+.description{
+    color: #ececec;
+    text-align: center;
+    font-size: 24px;
+    border: #018ABE 3px solid;
+    border-radius: 5px;
+    width: 81rem;
+    margin: 70px auto;
+    padding: 1.5rem 1.5rem;
+}
 
+.services{
     color: #ececec;
     margin-top: 104px;
     .title{
