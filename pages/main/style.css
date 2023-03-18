@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +25,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #3160ac;
-  width: 100%;
+  max-width: 100%;
 }
 .header .header-menu {
   list-style: none;
@@ -53,6 +55,10 @@ body {
   text-decoration: none;
   border-radius: 3px;
   margin-left: 100px;
+}
+
+.icon {
+  height: 28px;
 }
 
 .about {
@@ -92,15 +98,33 @@ body {
   position: absolute;
 }
 
-.description {
+.about_me {
+  max-width: 81rem;
+  margin: 0 auto;
+}
+.about_me .title {
+  display: flex;
+  justify-content: center;
+  color: #ececec;
+  margin-top: 90px;
+}
+.about_me .title h2 {
+  margin: 0 95px;
+}
+.about_me .description {
   color: #ececec;
   text-align: center;
   font-size: 24px;
   border: #018ABE 3px solid;
   border-radius: 5px;
-  width: 81rem;
+  max-width: 81rem;
   margin: 70px auto;
   padding: 1.5rem 1.5rem;
+}
+.about_me .certificates {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 125px;
 }
 
 .services {
@@ -110,9 +134,6 @@ body {
 .services .title {
   display: flex;
   justify-content: center;
-}
-.services .icon {
-  height: 28px;
 }
 .services h2 {
   margin: 0 147px 0 147px;
@@ -225,7 +246,7 @@ body {
   position: relative;
 }
 .work .container .card_1 p {
-  font-size: 20px;
+  font-size: 22px;
   color: #ececec;
   margin-top: 30px;
   margin-left: -90px;
@@ -233,20 +254,21 @@ body {
 .work .container .card_1 .number_bg {
   position: absolute;
   top: 64px;
-  right: 410px;
+  right: 467px;
 }
 .work .container .card_1 .numb {
   position: absolute;
   top: 82px;
-  right: 440px;
+  right: 500px;
 }
 .work .container .card_2 {
   position: relative;
 }
 .work .container .card_2 p {
-  font-size: 20px;
+  font-size: 22px;
   color: #ececec;
   margin-top: 30px;
+  margin-left: -22px;
 }
 .work .container .card_2 .number_bg {
   position: absolute;
@@ -263,9 +285,10 @@ body {
   margin-top: 50px;
 }
 .work .container .card_3 p {
-  font-size: 20px;
+  font-size: 22px;
   color: #ececec;
   margin-top: 30px;
+  margin-left: -28px;
 }
 .work .container .card_3 .number_bg {
   position: absolute;
@@ -282,9 +305,10 @@ body {
   margin-top: 50px;
 }
 .work .container .card_4 p {
-  font-size: 20px;
+  font-size: 22px;
   color: #ececec;
   margin-top: 30px;
+  margin-left: -11px;
 }
 .work .container .card_4 .number_bg {
   position: absolute;
@@ -295,6 +319,160 @@ body {
   position: absolute;
   top: 82px;
   right: 395px;
+}
+
+.feedback .title {
+  display: flex;
+  justify-content: center;
+  color: #ececec;
+  margin-top: 90px;
+}
+.feedback .title h2 {
+  margin: 0 45px;
+}
+.feedback .swiper {
+  margin: 0 auto;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  max-width: 81rem;
+  margin-bottom: 160px;
+}
+.feedback .swiper h3 {
+  font-family: ABeeZee;
+  font-size: 20px;
+  color: #f6f6f6;
+  padding: 46px 60px 20px;
+}
+.feedback .swiper p {
+  font-family: ABeeZee;
+  font-size: 14px;
+  color: #f6f6f6;
+  padding: 0 60px;
+}
+.feedback .swiper .swiper-pagination-bullet {
+  border-radius: 15%;
+  background-color: #ececec;
+}
+.feedback .swiper .swiper-slide {
+  background-color: #3160ac;
+  height: 15rem;
+}
+
+.assurance {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(152, 201, 220, 0.5176470588);
+  margin: 0 auto;
+  font-family: Roboto;
+  max-width: 81rem;
+  height: 7rem;
+}
+.assurance .points {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 18rem;
+}
+.assurance .points p {
+  font-size: 24px;
+}
+.assurance .points img {
+  margin-right: 25px;
+  max-width: 3.75rem;
+  max-height: 3.75rem;
+}
+
+.location {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 81rem;
+  margin: 0 auto;
+}
+.location h3 {
+  font-family: El Messiri;
+  font-weight: 700;
+  color: #ececec;
+}
+.location p {
+  color: #ececec;
+  font-family: ABeeZee;
+  font-weight: 700;
+}
+.location img {
+  margin-right: 20px;
+}
+.location .container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 190px;
+}
+.location .info .address {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.location .info .subway {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.location .info .order {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+.location .request {
+  display: flex;
+  flex-direction: column;
+  width: 29.375rem;
+  margin-top: 40px;
+}
+.location .request textarea {
+  margin-top: 20px;
+  width: 28.938rem;
+  height: 8.75rem;
+  padding: 1rem 1.5rem;
+}
+.location .request textarea::-moz-placeholder {
+  font-size: 14px;
+}
+.location .request textarea::placeholder {
+  font-size: 14px;
+}
+.location .request input {
+  width: 13.75rem;
+  height: 2.5rem;
+  padding: 0.3rem 0.2rem;
+}
+.location .request input::-moz-placeholder {
+  font-size: 14px;
+}
+.location .request input::placeholder {
+  font-size: 14px;
+}
+.location .request button {
+  background: #2d70ce;
+  color: #f6f6f6;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-left: 170px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  background-color: #3160ac;
+  max-width: 100%;
+  min-height: 10rem;
+  text-align: left;
+  margin-top: 160px;
+  color: #ececec;
+  font-size: 14px;
 }
 
 .popup {

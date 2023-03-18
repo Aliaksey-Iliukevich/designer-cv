@@ -46,3 +46,41 @@ function popupOpen(currentPopup){
     }
 }
 
+
+
+
+const swiper = new Swiper('.swiper', {
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      dynamicBullets: true,
+    },
+  
+    // Navigation arrows
+    // navigation: {
+    //   nextEl: '.swiper-button-next',
+    //   prevEl: '.swiper-button-prev',
+    // },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+    grabCursor: true,
+
+    keyboard: {
+        enabled: true,
+        onlyInViewport: true,
+        pageUpDown: true,
+    },
+     mousewheel: {
+        sensityvity: 1,
+     },
+     slidesPerView: 3,
+     spaceBetween: 25,
+     speed: 600,
+  });
+
