@@ -142,26 +142,12 @@ body {
   width: 30.063rem;
   height: 16.5rem;
 }
-.cards .cards-container .card-6 h2 {
-  position: absolute;
-  top: 220px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
 .cards .cards-container .card-7 {
   position: relative;
 }
 .cards .cards-container .card-7 img {
   width: 23.125rem;
   height: 16.438rem;
-}
-.cards .cards-container .card-7 h2 {
-  position: absolute;
-  top: 175px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
 }
 .cards .cards-container .card-8 {
   position: relative;
@@ -172,13 +158,6 @@ body {
   width: 27rem;
   height: 52rem;
 }
-.cards .cards-container .card-8 h2 {
-  position: absolute;
-  top: 770px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
 .cards .cards-container .card-9 {
   position: relative;
 }
@@ -186,13 +165,6 @@ body {
   width: 30.063rem;
   height: 33rem;
   margin-top: 14px;
-}
-.cards .cards-container .card-9 h2 {
-  position: absolute;
-  top: 490px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
 }
 .cards .cards-container .card-10 {
   position: relative;
@@ -205,13 +177,6 @@ body {
   width: 23rem;
   height: 33.7rem;
 }
-.cards .cards-container .card-10 h2 {
-  position: absolute;
-  top: 485px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
 .cards .cards-container .card-11 {
   position: relative;
   grid-row: 6/6;
@@ -221,13 +186,6 @@ body {
   width: 54rem;
   height: 35rem;
 }
-.cards .cards-container .card-11 h2 {
-  position: absolute;
-  top: 510px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
 .cards .cards-container .card-12 {
   position: relative;
   grid-row: 6/6;
@@ -235,13 +193,6 @@ body {
 .cards .cards-container .card-12 img {
   width: 27rem;
   height: 35rem;
-}
-.cards .cards-container .card-12 h2 {
-  position: absolute;
-  top: 495px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
 }
 .cards .cards-container .card-13 {
   position: relative;
@@ -251,13 +202,6 @@ body {
   width: 30.25rem;
   height: 19.5rem;
 }
-.cards .cards-container .card-13 h2 {
-  position: absolute;
-  top: 270px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
 .cards .cards-container .card-14 {
   position: relative;
   grid-row: 8/8;
@@ -266,23 +210,9 @@ body {
   width: 23rem;
   height: 19.5rem;
 }
-.cards .cards-container .card-14 h2 {
-  position: absolute;
-  top: 270px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
 .cards .cards-container .card-15 {
   position: relative;
   grid-row: 8/8;
-}
-.cards .cards-container .card-15 h2 {
-  position: absolute;
-  top: 270px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
 }
 .cards div {
   text-align: center;
