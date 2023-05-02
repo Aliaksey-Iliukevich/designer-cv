@@ -75,6 +75,10 @@ body {
   margin: 0 auto;
   margin-bottom: 115px;
 }
+.cards .cards-container .card {
+  align-self: center;
+  justify-self: center;
+}
 .cards .cards-container .card-1 {
   position: relative;
   grid-row: 1/3;
@@ -161,6 +165,7 @@ body {
 }
 .cards .cards-container .card-12 {
   position: relative;
+  height: 32.25rem;
   grid-row: 7/9;
   grid-column: 1/3;
 }
@@ -172,6 +177,7 @@ body {
   position: relative;
   grid-row: 9/11;
   justify-self: end;
+  row-gap: 5px;
 }
 .cards .cards-container .card-15 {
   position: relative;
