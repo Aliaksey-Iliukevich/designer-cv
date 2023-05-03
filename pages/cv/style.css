@@ -167,35 +167,36 @@ body {
   position: relative;
   height: 32.25rem;
   grid-row: 7/9;
-  grid-column: 1/3;
+  grid-column: 1/1;
 }
 .cards .cards-container .card-13 {
   position: relative;
-  grid-row: 7/9;
 }
 .cards .cards-container .card-14 {
   position: relative;
-  grid-row: 9/11;
-  justify-self: end;
-  row-gap: 5px;
+  grid-row: 8/9;
 }
 .cards .cards-container .card-15 {
   position: relative;
-  grid-row: 9/11;
-  grid-column: 2/4;
-  justify-self: end;
+  grid-row: 7/9;
 }
 .cards .cards-container .card-16 {
+  position: relative;
+  grid-row: 9/11;
+}
+.cards .cards-container .card-17 {
+  position: relative;
+  grid-row: 9/11;
+  grid-column: 2/4;
+}
+.cards .cards-container .card-18 {
   position: relative;
   grid-row: 11/13;
   grid-column: 1/3;
 }
-.cards .cards-container .card-17 {
+.cards .cards-container .card-19 {
   position: relative;
-  grid-row: 11/12;
-}
-.cards .cards-container .card-18 {
-  position: relative;
+  grid-row: 11/13;
 }
 .cards div {
   text-align: center;
