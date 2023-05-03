@@ -5,7 +5,8 @@
 
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    box-sizing:border-box; 
 };
 
 .wrapper{
@@ -17,8 +18,6 @@
 
 body{
     background-color: #0e2547;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 .header{
