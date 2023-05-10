@@ -167,6 +167,12 @@ body {
 }
 .services .content .card_1 {
   position: relative;
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+.services .content .card_1:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s;
 }
 .services .content .card_1 p {
   color: #ececec;
@@ -187,6 +193,12 @@ body {
 .services .content .card_2 {
   height: 260px;
   position: relative;
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+.services .content .card_2:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s;
 }
 .services .content .card_2 p {
   color: #ececec;
@@ -201,6 +213,12 @@ body {
 .services .content .card_3 {
   height: 260px;
   position: relative;
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+.services .content .card_3:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s;
 }
 .services .content .card_3 p {
   color: #ececec;
@@ -215,6 +233,12 @@ body {
 .services .content .card_4 {
   height: 260px;
   position: relative;
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+.services .content .card_4:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s;
 }
 .services .content .card_4 p {
   color: #ececec;
@@ -229,6 +253,12 @@ body {
 .services .content .card_5 {
   height: 260px;
   position: relative;
+  transform: scale(1);
+  transition: transform 0.4s;
+}
+.services .content .card_5:hover {
+  transform: scale(1.05);
+  transition: transform 0.4s;
 }
 .services .content .card_5 p {
   color: #ececec;

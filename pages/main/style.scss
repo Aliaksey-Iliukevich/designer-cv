@@ -167,9 +167,14 @@ body{
         display: flex;
         justify-content: center;
         margin-top: 100px;
-        // width: 81rem;
         .card_1{
             position: relative;
+            transform: scale(1.0);
+            transition: transform 0.4s;
+            &:hover{
+            transform: scale(1.05);
+            transition: transform 0.4s;
+            }
             p{
                 color: #ececec;
                 position: absolute;
@@ -191,6 +196,12 @@ body{
         .card_2{
             height: 260px;
             position: relative;
+            transform: scale(1.0);
+            transition: transform 0.4s;
+            &:hover{
+            transform: scale(1.05);
+            transition: transform 0.4s;
+            }
             p{
                 color: #ececec;
                 position: absolute;
@@ -205,6 +216,12 @@ body{
         .card_3{
             height: 260px;
             position: relative;
+            transform: scale(1.0);
+            transition: transform 0.4s;
+            &:hover{
+            transform: scale(1.05);
+            transition: transform 0.4s;
+            }
             p{
                 color: #ececec;
                 position: absolute;
@@ -219,6 +236,12 @@ body{
         .card_4{
             height: 260px;
             position: relative;
+            transform: scale(1.0);
+            transition: transform 0.4s;
+            &:hover{
+            transform: scale(1.05);
+            transition: transform 0.4s;
+            }
             p{
                 color: #ececec;
                 position: absolute;
@@ -233,6 +256,12 @@ body{
         .card_5{
             height: 260px;
             position: relative;
+            transform: scale(1.0);
+            transition: transform 0.4s;
+            &:hover{
+            transform: scale(1.05);
+            transition: transform 0.4s;
+            }
             p{
                 color: #ececec;
                 position: absolute;
