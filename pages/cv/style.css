@@ -16,7 +16,7 @@
 }
 
 body {
-  background-color: #0e2547;
+  background-color: #162831;
 }
 
 .header {
@@ -199,6 +199,15 @@ body {
 .cards .cards-container .card-19 {
   position: relative;
   grid-row: 11/13;
+}
+.cards .cards-container .card-20 {
+  position: relative;
+}
+.cards .cards-container .card-21 {
+  position: relative;
+}
+.cards .cards-container .card-22 {
+  position: relative;
 }
 .cards div {
   text-align: center;

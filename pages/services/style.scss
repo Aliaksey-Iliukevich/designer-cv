@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+};
+
+.wrapper{
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+body{
+    background-color: #162831;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3160ac;
+    max-width: 100%;
+    .header-menu{
+        list-style: none;
+        display: flex;
+        padding-left: 150px;
+        a{
+            text-decoration: none;
+            font-size: 18px;
+            color: aliceblue;
+            &:hover{
+                color: #a3afff;
+            }
+        }
+      .header-menu-item:not(:last-child){
+        padding-right: 30px;
+      }
+    }
+    
+    .header-logo{
+        max-width: 5rem;
+        max-height: 5rem;
+    }
+    .btn{
+        display: inline-block;
+        background: #65a4fd; 
+        color: #f6f6f6; 
+        padding: 1rem 1.5rem; 
+        text-decoration: none; 
+        border-radius: 3px;
+        margin-left: 100px;
+    }
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #ececec;
+    margin: 90px 0 80px 0;
+    h2{
+        margin: 0 95px;
+    }
+    .icon{
+        height: 28px;
+    }
+}
+
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .card-1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 81.125rem;
+        height: 33.125rem;
+        border: 2px solid #018ABE;
+        border-radius: 20px;
+        margin-bottom: 45px;
+        .text{
+            width: 35.25rem;
+            color: #ececec;
+            h2{
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .card-btn{
+                width: 8.438rem;
+                height: 2.5rem;
+                display: inline-block;
+                background: #65a4fd; 
+                color: #f6f6f6; 
+                padding: 0.8rem 1.5rem; 
+                text-decoration: none; 
+                border-radius: 3px;
+                font-size: 12px;
+            }
+        }
+    }
+    .card-2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 81.125rem;
+        height: 33.125rem;
+        border: 2px solid #018ABE;
+        border-radius: 20px;
+        margin-bottom: 45px;
+        .text{
+            width: 35.25rem;
+            color: #ececec;
+            h2{
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .card-btn{
+                width: 8.438rem;
+                height: 2.5rem;
+                display: inline-block;
+                background: #65a4fd; 
+                color: #f6f6f6; 
+                padding: 0.8rem 1.5rem; 
+                text-decoration: none; 
+                border-radius: 3px;
+                font-size: 12px;
+            }
+        }
+    }
+    .card-3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 81.125rem;
+        height: 33.125rem;
+        border: 2px solid #018ABE;
+        border-radius: 20px;
+        margin-bottom: 45px;
+        .text{
+            width: 35.25rem;
+            color: #ececec;
+            h2{
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .card-btn{
+                width: 8.438rem;
+                height: 2.5rem;
+                display: inline-block;
+                background: #65a4fd; 
+                color: #f6f6f6; 
+                padding: 0.8rem 1.5rem; 
+                text-decoration: none; 
+                border-radius: 3px;
+                font-size: 12px;
+            }
+        }
+    }
+    .card-4{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 81.125rem;
+        height: 33.125rem;
+        border: 2px solid #018ABE;
+        border-radius: 20px;
+        margin-bottom: 45px;
+        .text{
+            width: 35.25rem;
+            color: #ececec;
+            h2{
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .card-btn{
+                width: 8.438rem;
+                height: 2.5rem;
+                display: inline-block;
+                background: #65a4fd; 
+                color: #f6f6f6; 
+                padding: 0.8rem 1.5rem; 
+                text-decoration: none; 
+                border-radius: 3px;
+                font-size: 12px;
+            }
+        }
+    }
+    .card-5{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 81.125rem;
+        height: 33.125rem;
+        border: 2px solid #018ABE;
+        border-radius: 20px;
+        margin-bottom: 45px;
+        .text{
+            width: 35.25rem;
+            color: #ececec;
+            h2{
+                margin-bottom: 40px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+            .card-btn{
+                width: 8.438rem;
+                height: 2.5rem;
+                display: inline-block;
+                background: #65a4fd; 
+                color: #f6f6f6; 
+                padding: 0.8rem 1.5rem; 
+                text-decoration: none; 
+                border-radius: 3px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.footer{
+    display: flex;
+    align-items:center;
+    background-color: #3160ac;
+    max-width: 100%;
+    min-height: 10rem;
+    text-align: left;
+    margin-top: 160px;
+    color: #ececec;
+    font-size: 14px;
+}
