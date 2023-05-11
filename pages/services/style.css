@@ -19,6 +19,43 @@ body {
   background-color: #162831;
 }
 
+.burger {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: #a3afff;
+}
+.burger span {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: #000;
+  left: 5px;
+  transition: transform 0.5s, opacity 0.5s, background-color 0.5s;
+}
+
+.burger span:nth-child(1) {
+  transform: translateY(-10px);
+}
+
+.burger span:nth-child(3) {
+  transform: translateY(10px);
+}
+
+.header.open .burger span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+
+.header.open .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.header.open .burger span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -35,6 +72,7 @@ body {
   text-decoration: none;
   font-size: 18px;
   color: aliceblue;
+  transition: color 0.3s;
 }
 .header .header-menu a:hover {
   color: #a3afff;
@@ -45,6 +83,7 @@ body {
 .header .header-logo {
   max-width: 5rem;
   max-height: 5rem;
+  margin-top: 15px;
 }
 .header .btn {
   display: inline-block;
@@ -54,6 +93,20 @@ body {
   text-decoration: none;
   border-radius: 3px;
   margin-left: 100px;
+}
+.header .contacts {
+  margin: 0 150px;
+}
+.header .contacts a {
+  text-decoration: none;
+  color: #ececec;
+  transition: color 0.5s;
+}
+.header .contacts a:hover {
+  color: #8d9cff;
+}
+.header .contacts p {
+  padding: 5px 0;
 }
 
 .title {
@@ -241,4 +294,42 @@ body {
   margin-top: 160px;
   color: #ececec;
   font-size: 14px;
+}
+
+@media screen and (max-width: 990px) {
+  .burger {
+    display: block;
+    z-index: 2;
+    position: absolute;
+    right: 65px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header .btn {
+    display: none;
+  }
+  .header .header-nav {
+    position: absolute;
+    right: -350px;
+    top: 0;
+    padding: 50px 50px 20px 20px;
+    width: 350px;
+    background-color: #65a4fd;
+    z-index: 1;
+    transition: transform 0.5s;
+  }
+  .header .header-menu {
+    flex-direction: column;
+    padding: 0 75px;
+  }
+  .header .header-menu a {
+    font-size: 32px;
+    display: block;
+    padding: 10px 0;
+  }
+  .header.open .header-nav {
+    transform: translateX(-100%);
+  }
 }/*# sourceMappingURL=style.css.map */
