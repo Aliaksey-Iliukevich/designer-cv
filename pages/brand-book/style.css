@@ -109,173 +109,45 @@ body {
   padding: 5px 0;
 }
 
-.cards .title {
+.title {
   display: flex;
   justify-content: center;
   color: #ececec;
   margin: 90px 0 80px 0;
 }
-.cards .title h2 {
+.title h2 {
   margin: 0 95px;
 }
-.cards .title .icon {
-  height: 28px;
-}
-.cards .cards-container {
-  max-width: 81rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(270px, 270px);
-  grid-gap: 18px;
+.title .icon {
+  height: 1.875rem;
+  width: 3.75rem;
   margin: 0 auto;
-  margin-bottom: 115px;
 }
-.cards .cards-container .card {
-  align-self: center;
-  justify-self: center;
+
+.content {
+  max-width: 68.75rem;
+  margin: 0 auto 40px;
 }
-.cards .cards-container .card-1 {
-  position: relative;
-  grid-row: 1/3;
+.content .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.cards .cards-container .card-1 h2 {
-  position: absolute;
-  top: 477px;
-  left: 50px;
+.content h1 {
+  margin-bottom: 50px;
   color: #ececec;
-  font-size: 21px;
-}
-.cards .cards-container .card-2 {
-  position: relative;
-}
-.cards .cards-container .card-2 h2 {
-  position: absolute;
-  top: 208px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
-.cards .cards-container .card-3 {
-  position: relative;
-  max-height: 16.875rem;
-}
-.cards .cards-container .card-3 img {
-  width: 26.625rem;
-  height: 16.875rem;
-}
-.cards .cards-container .card-3 h2 {
-  position: absolute;
-  top: 208px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
-.cards .cards-container .card-4 {
-  position: relative;
-}
-.cards .cards-container .card-4 img {
-  width: 23.125rem;
-  height: 15.938rem;
-}
-.cards .cards-container .card-4 h2 {
-  position: absolute;
-  top: 208px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
-.cards .cards-container .card-5 {
-  position: relative;
-}
-.cards .cards-container .card-5 h2 {
-  position: absolute;
-  top: 208px;
-  left: 31px;
-  color: #ececec;
-  font-size: 21px;
-}
-.cards .cards-container .card-6 {
-  position: relative;
-  grid-row: 3/5;
-}
-.cards .cards-container .card-7 {
-  position: relative;
-}
-.cards .cards-container .card-8 {
-  position: relative;
-  grid-row: 3/5;
-  grid-column: 3/3;
-}
-.cards .cards-container .card-9 {
-  position: relative;
-}
-.cards .cards-container .card-10 {
-  position: relative;
-  grid-row: 5/7;
-}
-.cards .cards-container .card-11 {
-  position: relative;
-  grid-row: 5/7;
-  grid-column: 2/4;
-}
-.cards .cards-container .card-12 {
-  position: relative;
-  height: 32.25rem;
-  grid-row: 7/9;
-  grid-column: 1/1;
-}
-.cards .cards-container .card-13 {
-  position: relative;
-}
-.cards .cards-container .card-14 {
-  position: relative;
-  grid-row: 8/9;
-}
-.cards .cards-container .card-15 {
-  position: relative;
-  grid-row: 7/9;
-}
-.cards .cards-container .card-16 {
-  position: relative;
-  grid-row: 9/11;
-}
-.cards .cards-container .card-17 {
-  position: relative;
-  grid-row: 9/11;
-  grid-column: 2/4;
-}
-.cards .cards-container .card-18 {
-  position: relative;
-  grid-row: 11/13;
-  grid-column: 1/3;
-}
-.cards .cards-container .card-19 {
-  position: relative;
-  grid-row: 11/13;
-}
-.cards .cards-container .card-20 {
-  position: relative;
-}
-.cards .cards-container .card-21 {
-  position: relative;
-}
-.cards .cards-container .card-22 {
-  position: relative;
-}
-.cards div {
   text-align: center;
 }
-.cards div .btn {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-  width: 26.875rem;
-  height: 2.813rem;
-  background: #34547A;
-  color: #f6f6f6;
-  padding: 1rem 1.5rem;
-  text-decoration: none;
-  border-radius: 3px;
+.content img {
+  width: 68.75rem;
+  height: 100%;
+  margin-bottom: 40px;
+}
+.content p {
+  color: #ececec;
+  font-size: 14px;
+  width: 100%;
 }
 
 .footer {
