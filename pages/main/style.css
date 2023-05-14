@@ -556,14 +556,21 @@ body {
   font-size: 14px;
 }
 .location .request button {
-  background: #2d70ce;
+  background: #34547A;
   color: #f6f6f6;
   padding: 1rem 1.5rem;
   text-decoration: none;
   border-radius: 3px;
-  margin-left: 170px;
+  border: none;
   margin-top: 15px;
   cursor: pointer;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.location .request button:hover {
+  color: #34547A;
+  background-color: #f6f6f6;
+  border: 1px solid #34547A;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
 }
 
 .footer {
@@ -578,92 +585,8 @@ body {
   font-size: 14px;
 }
 
-.popup {
-  font-family: Montserrat;
-  width: 100%;
-  height: 100%;
-  font-size: 24px;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.32);
-  opacity: 0;
-  visibility: hidden;
-  overflow-y: auto;
-  overflow-x: hidden;
-  transition: all 0.8s ease 0s;
-}
-.popup .open {
-  opacity: 1;
-  visibility: visible;
-}
-.popup .open .popup_content {
-  transform: perspective(600px) translate(0px, 0%) rotate(0deg);
-  opacity: 1;
-}
-.popup img {
-  position: absolute;
-  left: 465px;
-  top: 5px;
-}
-.popup .popup_title {
-  padding: 10px 0 30px 0;
-  color: #ececec;
-}
-.popup .popup_body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 10px;
-}
-.popup .popup_body form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-radius: 1%;
-}
-.popup .popup_body form input {
-  width: 25rem;
-  border-radius: 5px;
-  border: 1px solid #000;
-  font-size: 20px;
-  padding-left: 5px;
-}
-.popup .popup_body form input:not(:last-child) {
-  margin-bottom: 20px;
-}
-.popup .popup_body form textarea {
-  width: 25rem;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-.popup .popup_body form textarea::-moz-placeholder {
-  padding-left: 5px;
-  font-size: 20px;
-}
-.popup .popup_body form textarea::placeholder {
-  padding-left: 5px;
-  font-size: 20px;
-}
-.popup .popup_body form button {
-  width: 15rem;
-  border-radius: 15px;
-  background-color: #122348;
-  cursor: pointer;
-  height: 32px;
-  color: #ececec;
-  font-size: 20px;
-}
-.popup .popup_content {
-  background-color: #364c93;
-  border-radius: 5px;
-  position: relative;
-  width: 32rem;
-  height: 25rem;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+#submit {
+  font-size: 64px;
 }
 
 @media screen and (max-width: 990px) {

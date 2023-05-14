@@ -214,10 +214,10 @@
                         </div>
                     </div>
                     <div class="request">
-                        <form action="#">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Ваш e-mail">
-                            <textarea name="message" id="" cols="40" rows="7" placeholder="Сообщение"></textarea>
+                        <form action="./send.php" method="POST">
+                            <input type="text" name="name" placeholder="Введите Ваше имя" required>
+                            <input type="phone" name="tel" placeholder="Введите Ваш номер телефона" required>
+                            <textarea name="message" id="help" cols="30" rows="10" placeholder="Кратко опишите чем мы можем Вам помочь"></textarea>
                             <button type="submit">Отправить</button>
                         </form>
                     </div>
@@ -229,22 +229,6 @@
 
   Вся информация, размещенная на сайте, является интеллектуальной собственностью. Любое копирование и использование информации без письменного разрешения запрещено.</b></pre>
         </footer>
-    </div>
-    <div id="popup" class="popup">
-        <div class="popup_body">
-            <div class="popup_content">
-                <a href="#" class="popup_close close-popup"><img src="../../icons/popup-close-white.png" alt="кнопка закрытия модальгого окна"></a>
-                <div class="popup_title">Я всегда рада помочь Вам!</div>
-                <div class="popup_form">
-                    <form action="">
-                        <input type="text" placeholder="Введите Ваше имя">
-                        <input type="phone" placeholder="Введите Ваш номер телефона">
-                        <textarea name="help" id="help" cols="30" rows="10" placeholder="Кратко опишите чем мы можем Вам помочь"></textarea>
-                        <button type="submit">Отправить</button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
