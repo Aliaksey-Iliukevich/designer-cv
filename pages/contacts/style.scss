@@ -170,6 +170,23 @@ body{
     }
     }
 
+    svg path.vk:hover{
+        fill:#0077FF;
+    }
+
+    svg path.telegram:hover{
+        fill: #0088cc;
+    }
+
+    svg .wechat:hover{
+        fill: #03DC6B;
+    }
+
+    svg .facebook:hover{
+        fill: #3b5998;
+    }
+
+
     .request{
         display: flex;
         flex-direction: column;
@@ -204,6 +221,13 @@ body{
             border: none;
             margin-top: 15px;
             cursor: pointer;
+            transition: color .3s, background-color .3s, border .3s;
+            &:hover{
+                color:  #34547A;
+                background-color: #f6f6f6;
+                border: 1px solid #34547A;
+                transition: color .3s, background-color .3s, border .3s;
+            }
         }
     
     }
