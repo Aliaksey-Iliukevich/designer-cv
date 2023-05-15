@@ -17,16 +17,19 @@ $name = trim($name);
 $tel = trim($tel);
 $message = trim($message);
 
-if(mail("lesha.ilykevich.98@mail.ru",
+if(mail("zakhar.demidov.96@mail.ru",
         "Новое письмо с сайта!",
         "Имя: ".$name."\n".
         "Телефон: ".$tel."\n".
         "Сообщение: ".$message,
-        "От:  no-reply@maria-designer.com \r\n")
+        "От: lesha.ilykevich.98@mail.ru \r\n")
 ){
     header("Location: http://designer-cv/pages/thanks/");
 } 
 else {
     header("Location: http://designer-cv/pages/error/");
 }
+
+ini_set('display_errors','On');
+error_reporting('E_ALL');
 ?>
