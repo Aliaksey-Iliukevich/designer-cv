@@ -17,7 +17,7 @@ $name = trim($name);
 $tel = trim($tel);
 $message = trim($message);
 
-if(mail("aleks.ilykevich@gmail.com",
+if(mail("lesha.ilykevich.98@mail.ru",
         "Новое письмо с сайта!",
         "Имя: ".$name."\n".
         "Телефон: ".$tel."\n".
