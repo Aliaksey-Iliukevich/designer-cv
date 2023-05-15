@@ -165,6 +165,18 @@ body {
   justify-content: space-around;
   width: 11.25rem;
 }
+.feedback svg path.vk:hover {
+  fill: #0077FF;
+}
+.feedback svg path.telegram:hover {
+  fill: #0088cc;
+}
+.feedback svg .wechat:hover {
+  fill: #03DC6B;
+}
+.feedback svg .facebook:hover {
+  fill: #3b5998;
+}
 .feedback .request {
   display: flex;
   flex-direction: column;
@@ -206,6 +218,13 @@ body {
   border: none;
   margin-top: 15px;
   cursor: pointer;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.feedback .request button:hover {
+  color: #34547A;
+  background-color: #f6f6f6;
+  border: 1px solid #34547A;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
 }
 
 .footer {

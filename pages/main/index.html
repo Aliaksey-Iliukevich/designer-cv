@@ -140,31 +140,31 @@
                     <div class="swiper-slide">
                         <div class="card-1">
                             <h3>Лена Щербакова</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ex quibusdam soluta reiciendis inventore sequi reprehenderit repellendus illo voluptates quasi iure optio dolores et consequatur, mollitia dolore, excepturi explicabo amet!</p>
+                            <p>Хочу выразить огромную благодарность, за созданный вами логотип! Все выполнено в лучшем виде! А главное - директор остался доволен! Приятно иметь дело с профессионалом!</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card-2">
                             <h3> Яна Орлова</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quasi itaque, totam, ea sapiente nemo ut facilis necessitatibus consectetur odio quo dolorum eveniet ipsa. Rerum illum explicabo quisquam saepe numquam!</p>
+                            <p>Качественно, оперативно, учитывает пожелания клиента, объясняет всё доступным языком, я в восторге!</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card-3">
                             <h3>Максим Серый</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut quo rem quisquam velit, non laboriosam labore necessitatibus dolor eligendi vero, eius nemo distinctio, vel aspernatur ipsa autem neque voluptas?</p>
+                        <p>Разрабатывала дизайн для нашего рекламного агентства. Понравилось ВСЁ! Четко, без воды. Учитывает все пожелания, оперативно, в срок. Правки вносятся быстро. Предложенный вариант и готовый результат понравился всем.</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card-4">
                             <h3>Кочергина Таисия</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut quo rem quisquam velit, non laboriosam labore necessitatibus dolor eligendi vero, eius nemo distinctio, vel aspernatur ipsa autem neque voluptas?</p>
+                        <p>Результатом довольны. Все замечания и предложения вносились оперативно. Спасибо!</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="card-5">
                             <h3>Одинцов Виктор</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ut quo rem quisquam velit, non laboriosam labore necessitatibus dolor eligendi vero, eius nemo distinctio, vel aspernatur ipsa autem neque voluptas?</p>
+                        <p>С самого начала сотрудничества было приятно иметь дело — быстро согласовали все детали с нюансами. Готовый проект оправдал все наши ожидания. Спасибо, в будущем будем обращаться и рекомендовать!</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -214,10 +214,10 @@
                         </div>
                     </div>
                     <div class="request">
-                        <form action="#">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Ваш e-mail">
-                            <textarea name="message" id="" cols="40" rows="7" placeholder="Сообщение"></textarea>
+                        <form action="./send.php" method="POST">
+                            <input type="text" name="name" placeholder="Введите Ваше имя" required>
+                            <input type="phone" name="tel" placeholder="Введите Ваш номер телефона" required>
+                            <textarea name="message" id="help" cols="30" rows="10" placeholder="Кратко опишите чем мы можем Вам помочь"></textarea>
                             <button type="submit">Отправить</button>
                         </form>
                     </div>
@@ -229,22 +229,6 @@
 
   Вся информация, размещенная на сайте, является интеллектуальной собственностью. Любое копирование и использование информации без письменного разрешения запрещено.</b></pre>
         </footer>
-    </div>
-    <div id="popup" class="popup">
-        <div class="popup_body">
-            <div class="popup_content">
-                <a href="#" class="popup_close close-popup"><img src="../../icons/popup-close-white.png" alt="кнопка закрытия модальгого окна"></a>
-                <div class="popup_title">Я всегда рада помочь Вам!</div>
-                <div class="popup_form">
-                    <form action="">
-                        <input type="text" placeholder="Введите Ваше имя">
-                        <input type="phone" placeholder="Введите Ваш номер телефона">
-                        <textarea name="help" id="help" cols="30" rows="10" placeholder="Кратко опишите чем мы можем Вам помочь"></textarea>
-                        <button type="submit">Отправить</button>
-                    </form>
-                </div>
-            </div>
-        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js"></script>

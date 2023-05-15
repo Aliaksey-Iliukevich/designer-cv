@@ -157,7 +157,7 @@ body {
   margin-bottom: 20px;
 }
 .blog .card-1 .text .card-btn {
-  width: 8.5rem;
+  width: 9.1rem;
   height: 2.5rem;
   display: inline-block;
   background: #65a4fd;
@@ -166,6 +166,14 @@ body {
   text-decoration: none;
   border-radius: 3px;
   font-size: 12px;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.blog .card-1 .text .card-btn:hover {
+  color: #4190ff;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  border: 2px solid #4190ff;
+  transition: color 0.3s, background-color 0.3s, border 0.3s, font-weight 0.3s;
 }
 .blog .card-2 {
   display: flex;
@@ -196,7 +204,7 @@ body {
   margin-bottom: 20px;
 }
 .blog .card-2 .text .card-btn {
-  width: 8.5rem;
+  width: 9.1rem;
   height: 2.5rem;
   display: inline-block;
   background: #65a4fd;
@@ -205,6 +213,14 @@ body {
   text-decoration: none;
   border-radius: 3px;
   font-size: 12px;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.blog .card-2 .text .card-btn:hover {
+  color: #4190ff;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  border: 2px solid #4190ff;
+  transition: color 0.3s, background-color 0.3s, border 0.3s, font-weight 0.3s;
 }
 .blog .card-3 {
   display: flex;
@@ -235,7 +251,7 @@ body {
   margin-bottom: 20px;
 }
 .blog .card-3 .text .card-btn {
-  width: 8.5rem;
+  width: 9.1rem;
   height: 2.5rem;
   display: inline-block;
   background: #65a4fd;
@@ -244,6 +260,14 @@ body {
   text-decoration: none;
   border-radius: 3px;
   font-size: 12px;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.blog .card-3 .text .card-btn:hover {
+  color: #4190ff;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  border: 2px solid #4190ff;
+  transition: color 0.3s, background-color 0.3s, border 0.3s, font-weight 0.3s;
 }
 .blog .card-4 {
   display: flex;
@@ -274,7 +298,7 @@ body {
   margin-bottom: 20px;
 }
 .blog .card-4 .text .card-btn {
-  width: 8.5rem;
+  width: 9.1rem;
   height: 2.5rem;
   display: inline-block;
   background: #65a4fd;
@@ -283,6 +307,14 @@ body {
   text-decoration: none;
   border-radius: 3px;
   font-size: 12px;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.blog .card-4 .text .card-btn:hover {
+  color: #4190ff;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  border: 2px solid #4190ff;
+  transition: color 0.3s, background-color 0.3s, border 0.3s, font-weight 0.3s;
 }
 .blog .card-5 {
   display: flex;
@@ -313,7 +345,7 @@ body {
   margin-bottom: 20px;
 }
 .blog .card-5 .text .card-btn {
-  width: 8.5rem;
+  width: 9.1rem;
   height: 2.5rem;
   display: inline-block;
   background: #65a4fd;
@@ -322,6 +354,14 @@ body {
   text-decoration: none;
   border-radius: 3px;
   font-size: 12px;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.blog .card-5 .text .card-btn:hover {
+  color: #4190ff;
+  background-color: #f6f6f6;
+  font-weight: bold;
+  border: 2px solid #4190ff;
+  transition: color 0.3s, background-color 0.3s, border 0.3s, font-weight 0.3s;
 }
 
 .footer {

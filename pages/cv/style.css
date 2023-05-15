@@ -273,9 +273,16 @@ body {
   height: 2.813rem;
   background: #34547A;
   color: #f6f6f6;
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   text-decoration: none;
   border-radius: 3px;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
+}
+.cards div .btn:hover {
+  color: #34547A;
+  background-color: #f6f6f6;
+  border: 1px solid #34547A;
+  transition: color 0.3s, background-color 0.3s, border 0.3s;
 }
 
 .footer {
